@@ -704,7 +704,7 @@
         "method": "POST",
         "header": "",
         "data": {
-            "phoneNo": "13809213237"
+            "phoneNo": "[phone]"
         }
     },
     {
@@ -741,5 +741,39 @@
         "method": "GET",
         "header": "",
         "data": ""
+    },
+    {
+        "desc": "华测",
+        "url": "https://cloud.huace.cn/ChcnavCloudAuth/code/sms?mobile=[phone]",
+        "method": "GET",
+        "header": "",
+        "data": ""
+    },
+    {
+        "desc": "中国水星",
+        "url": "http://www.waterchina.com/user/phonemsg",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "sPhone": "[phone]"
+        }
+    },
+    {
+        "desc": "有讲课堂",
+        "url": "https://www.yojiang.cn/api/user/send_verify_code?phone=[phone]",
+        "method": "GET",
+        "header": "",
+        "data": ""
+    },
+    {
+        "desc": "拼多多",
+        "url": "http://mobile.yangkeduo.com/proxy/api/api/sigerus/mobile/code/request?pdduid=0",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "platform": "4",
+	        "touchevent": "{}",
+	        "mobile": "[phone]"
+        }
     }
 ]
