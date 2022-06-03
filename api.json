@@ -775,5 +775,18 @@
 	        "touchevent": "{}",
 	        "mobile": "[phone]"
         }
+    },
+    {
+        "desc": "好医生",
+        "url": "https://www.haoyisheng.com/auth/sendVerification",
+        "method": "POST",
+        "header": {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "x-csrf-token": "Yt1UYXWZqXiOQ2FlcJHp0wT6FU1SYUnpCnaAnvfu"
+        },
+        "data": {
+            "phone": "[phone]",
+            "type": "1"
+        }
     }
 ]
