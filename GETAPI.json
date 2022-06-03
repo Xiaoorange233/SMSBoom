@@ -1016,5 +1016,6 @@
     "https://www.zhufuc.com/admin/api/center/code/verifycode?ran=0.25068726233475025&type=5&verifycode=[phone]",
     "https://www.znds.com/plugin.php?id=tshuz_smslogin:mobile&amp;mod=send&amp;phone=[phone]&amp;type=1&amp;hash=e5038cde",
     "https://www.zx123.cn/member/register.php?action=getcode&ajax=1&mobile=[phone]",
-    "https://www.zx123.cn/member/register.php?action=getcode&amp;ajax=1&amp;mobile=[phone]"
+    "https://www.zx123.cn/member/register.php?action=getcode&amp;ajax=1&amp;mobile=[phone]",
+    "https://brand.kol18.com/sso/data/login/getCheckCode?systemType=4&type=1&mobile=[phone]"
 ]
